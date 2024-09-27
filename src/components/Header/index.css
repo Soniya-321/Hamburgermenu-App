@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.logo-img {
+  height: 1.8rem;
+  width: 2rem;
+  margin-left: 10px;
+}
+.hamburger-img {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.separator {
+  width: 100%;
+  margin-top: 1.5rem;
+  color: #dcdcdc;
+}
+.popup-content {
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+}
+.close-img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 20px;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+}
+.popup-container {
+  display: flex;
+  flex-direction: column;
+}
+.pop-up {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  text-decoration: none;
+  border: none;
+  font-size: 15px;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: roboto;
+  list-style-type: none;
+}
+.button {
+  background-color: transparent;
+  border: none;
+}
+.button-2 {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+}
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+@media screen and (min-width: 991px) {
+  .icon {
+    height: 2rem;
+    width: 2rem;
+  }
+  .item {
+    font-size: 20px;
+  }
+  .close-img {
+    height: 2rem;
+    width: 2rem;
+  }
+}

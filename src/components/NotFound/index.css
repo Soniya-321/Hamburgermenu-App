@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.failure-img {
+  height: 250px;
+  width: 200px;
+}
+.failure-heading {
+    font-size: 20px;
+    margin: 0;
+}
+.para {
+    font-size: 13px;
+    margin: 5px;
+}
+@media screen and (min-width: 991px) {
+  .failure-img {
+    height: 400px;
+    width: 340px;
+  }
+  .failure-heading {
+    font-size: 35px;
+  }
+  .para {
+    font-size: 19px;
+  }
+}
